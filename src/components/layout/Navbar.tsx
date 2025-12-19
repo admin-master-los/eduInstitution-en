@@ -10,7 +10,7 @@ export default function Navbar() {
   const [language, setLanguage] = useState<'fr' | 'en'>(() => {
     // Détecter la langue depuis l'URL actuelle
     const currentUrl = window.location.hostname;
-    return currentUrl.includes('-en.') ? 'en' : 'fr';
+    return currentUrl.includes('-en.') ? 'fr' : 'en';
   });
 
   useEffect(() => {
