@@ -129,7 +129,7 @@ export default function Navbar() {
                   <span>{language === 'fr' ? 'Français' : 'English'}</span>
                 </button>
                 <Button variant="primary" size="sm" href="#admissions" className="w-full">
-                  Candidater
+                  Apply Now
                 </Button>
               </div>
             </motion.div>
