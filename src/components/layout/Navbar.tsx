@@ -84,7 +84,7 @@ export default function Navbar() {
               <span className="text-sm">{language.toUpperCase()}</span>
             </button>
             <Button variant="primary" size="sm" href="#admissions">
-              Candidater
+              Apply Now
             </Button>
           </div>
 
