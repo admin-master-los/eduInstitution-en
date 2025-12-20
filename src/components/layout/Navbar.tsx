@@ -31,8 +31,8 @@ export default function Navbar() {
   };
 
   const toggleLanguage = () => {
-    const newLang = language === 'en' ? 'fr' : 'en';
-    const targetUrl = newLang === 'en' 
+    const newLang = language === 'fr' ? 'en' : 'fr';
+    const targetUrl = newLang === 'fr' 
       ? 'https://eduinstitution-en.leonceouattarastudiogroup.site/'
       : 'https://eduinstitution-fr.leonceouattarastudiogroup.site/';
     window.location.href = targetUrl;
